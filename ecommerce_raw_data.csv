@@ -1,0 +1,121 @@
+order_id,customer_name,city,age,product,price,quantity,order_date,email
+1000, Sara ,Karachi,19.0,Camera,120000.0,1,2024-01-30 00:00:00,sara@yahoo.com
+1001,Usman,Karachi,27.0,Headphones,30000.0,1,2024-04-07 00:00:00,
+1002,Mike,Islamabad,53.0,Camera,20000.0,1,2024-03-21 00:00:00, mike@outlook.com 
+1003, Sara ,Islamabad,41.0,Laptop,20000.0,3,2024-02-15 00:00:00,sara@gmail.com
+1004,Ahmed,Faisalabad,21.0,Tablet,120000.0,1,2024-01-05 00:00:00,ahmed@gmail.com
+1005,Zara,Multan,27.0,Tablet,80000.0,3,2024-02-01 00:00:00,zara@outlook.com
+1006,Hina,Faisalabad,25.0,Camera,120000.0,1,2024-01-21 00:00:00,hina@outlook.com
+1007,David,Karachi,52.0,Tablet,20000.0,2,2024-04-08 00:00:00,david@yahoo.com
+1008,Ahmed,Lahore,37.0,Tablet,30000.0,1,2024-03-05 00:00:00,ahmed@outlook.com
+1009,Usman,Karachi,37.0,Laptop,20000.0,3,2024-01-31 00:00:00,usman@outlook.com
+1010,Ayesha,Lahore,45.0,Tablet,120000.0,2,2024-04-28 00:00:00,ayesha@outlook.com
+1011,Mike,Karachi,,Laptop,20000.0,2,invalid_date,
+1012,Sara,Faisalabad,48.0,Tablet,120000.0,2,2024-01-25 00:00:00,sara@yahoo.com
+1013,David,Lahore,24.0,Headphones,20000.0,1,2024-01-25 00:00:00,DAVID@OUTLOOK.COM
+1014,John,Lahore,18.0,Phone,20000.0,2,2024-04-28 00:00:00,john@gmail.com
+1015,Ayesha,Multan,47.0,Headphones,80000.0,1,2024-03-30 00:00:00,
+1016,Zara,Lahore,51.0,Laptop,-20000.0,3,2024-03-06 00:00:00,zara@gmail.com
+1017,Sara,Islamabad,44.0,Phone,120000.0,3,2024-03-13 00:00:00,sara@gmail.com
+1018,Mike,Multan,54.0,Tablet,-20000.0,1,2024-01-10 00:00:00,MIKE@YAHOO.COM
+1019,Mike,Karachi,,Phone,50000.0,2,2024-02-08 00:00:00,mike@gmail.com
+1020,Sara,Karachi,34.0,Laptop,50000.0,3,2024-02-02 00:00:00,sara@outlook.com
+1021,David,Lahore,45.0,Camera,50000.0,1,2024-01-15 00:00:00,DAVID@GMAIL.COM
+1022,Mike,Faisalabad,33.0,Camera,20000.0,3,2024-02-15 00:00:00, mike@gmail.com 
+1023,Ahmed,Lahore,39.0,Tablet,-80000.0,1,2024-02-22 00:00:00,ahmed@gmail.com
+1024,Sara,Islamabad,32.0,Tablet,80000.0,1,2024-03-25 00:00:00,sara@gmail.com
+1025,John,Multan,29.0,Headphones,20000.0,2,invalid_date,john@outlook.com
+1026,Mike,Lahore,52.0,Tablet,,2,2024-04-30 00:00:00,MIKE@OUTLOOK.COM
+1027,Sara,Lahore,38.0,Headphones,50000.0,3,2024-02-07 00:00:00,sara@yahoo.com
+1028,David,Faisalabad,55.0,Phone,20000.0,3,2024-02-11 00:00:00,david@gmail.com
+1029,Ayesha,Lahore,33.0,Laptop,120000.0,1,2024-01-29 00:00:00, ayesha@outlook.com 
+1030,Zara,Karachi,49.0,Laptop,120000.0,2,2024-01-19 00:00:00, zara@outlook.com 
+1031, Zara ,Faisalabad,51.0,Camera,20000.0,3,2024-03-17 00:00:00, zara@outlook.com 
+1032,Usman,Lahore,35.0,Tablet,80000.0,2,2024-03-07 00:00:00,usman@outlook.com
+1033,Sara,Islamabad,27.0,Camera,30000.0,2,2024-01-09 00:00:00,sara@gmail.com
+1034, David ,Faisalabad,42.0,Headphones,20000.0,3,2024-04-30 00:00:00,david@yahoo.com
+1035,Usman,Lahore,43.0,Camera,80000.0,3,2024-04-17 00:00:00,usman@gmail.com
+1036,Ali,Islamabad,34.0,Headphones,30000.0,2,2024-01-28 00:00:00, ali@outlook.com 
+1037,David,Karachi,20.0,Camera,50000.0,1,2024-02-01 00:00:00,
+1038, Zara ,Karachi,25.0,Camera,50000.0,1,2024-01-21 00:00:00,ZARA@OUTLOOK.COM
+1039,John,Islamabad,25.0,Camera,30000.0,2,2024-03-13 00:00:00,
+1040, Mike ,Multan,47.0,Tablet,20000.0,3,2024-02-25 00:00:00,mike@outlook.com
+1041,Usman,Faisalabad,46.0,Tablet,30000.0,1,2024-02-29 00:00:00,usman@yahoo.com
+1042,Ayesha,Karachi,35.0,Phone,50000.0,3,2024-03-07 00:00:00,ayesha@gmail.com
+1043,David,Multan,33.0,Camera,20000.0,2,2024-03-15 00:00:00,david@gmail.com
+1044,David,Lahore,38.0,Phone,50000.0,1,2024-03-09 00:00:00,david@outlook.com
+1045,Ayesha,Lahore,41.0,Tablet,20000.0,1,2024-01-02 00:00:00,ayesha@outlook.com
+1046,Ali,Karachi,48.0,Tablet,20000.0,2,2024-02-13 00:00:00,ali@outlook.com
+1047,Sara,Faisalabad,37.0,Camera,30000.0,3,2024-02-01 00:00:00,sara@yahoo.com
+1048,Hina,Lahore,21.0,Phone,120000.0,2,2024-04-04 00:00:00,hina@outlook.com
+1049, Sara ,Karachi,36.0,Phone,,2,2024-03-30 00:00:00,sara@gmail.com
+1050,Hina,Multan,28.0,Tablet,50000.0,2,2024-03-17 00:00:00,hina@gmail.com
+1051,Sara,Karachi,45.0,Phone,80000.0,3,2024-03-18 00:00:00,sara@yahoo.com
+1052,Hina,Multan,51.0,Headphones,20000.0,3,2024-04-27 00:00:00,hina@gmail.com
+1053,Ayesha,Multan,36.0,Laptop,30000.0,2,2024-02-21 00:00:00,ayesha@yahoo.com
+1054,Sara,Faisalabad,,Headphones,20000.0,1,2024-02-16 00:00:00,SARA@YAHOO.COM
+1055,Zara,Multan,33.0,Headphones,-20000.0,1,2024-02-09 00:00:00,zara@gmail.com
+1056,Zara,Lahore,35.0,Headphones,80000.0,3,2024-03-02 00:00:00,zara@gmail.com
+1057,Ahmed,Karachi,39.0,Tablet,50000.0,3,2024-03-05 00:00:00,ahmed@outlook.com
+1058,John,Lahore,52.0,Phone,120000.0,3,2024-04-29 00:00:00,john@outlook.com
+1059,David,Multan,27.0,Tablet,80000.0,1,2024-01-05 00:00:00,DAVID@YAHOO.COM
+1060, Ayesha ,Karachi,34.0,Tablet,-30000.0,3,2024-03-29 00:00:00,AYESHA@YAHOO.COM
+1061,Usman,Karachi,36.0,Laptop,-120000.0,2,2024-04-05 00:00:00,usman@yahoo.com
+1062,Ahmed,Lahore,44.0,Laptop,50000.0,3,2024-04-11 00:00:00,AHMED@GMAIL.COM
+1063,David,Karachi,47.0,Headphones,50000.0,2,2024-03-27 00:00:00,david@gmail.com
+1064,Hina,Islamabad,42.0,Laptop,80000.0,3,2024-03-14 00:00:00,hina@yahoo.com
+1065,David,Islamabad,36.0,Phone,120000.0,3,2024-01-30 00:00:00,david@outlook.com
+1066,Zara,Islamabad,20.0,Phone,30000.0,1,invalid_date,zara@outlook.com
+1067,John,Islamabad,28.0,Tablet,50000.0,1,2024-04-15 00:00:00,john@yahoo.com
+1068,Ayesha,Multan,41.0,Laptop,80000.0,2,invalid_date,ayesha@gmail.com
+1069,Mike,Multan,19.0,Phone,50000.0,3,2024-04-30 00:00:00,mike@outlook.com
+1070,Sara,Lahore,49.0,Headphones,,2,2024-01-31 00:00:00,sara@yahoo.com
+1071,Mike,Karachi,49.0,Tablet,30000.0,1,2024-04-30 00:00:00,mike@outlook.com
+1072,Ayesha,Faisalabad,21.0,Laptop,120000.0,3,2024-01-25 00:00:00, ayesha@gmail.com 
+1073,Zara,Lahore,53.0,Tablet,30000.0,1,2024-01-28 00:00:00, zara@outlook.com 
+1074, Hina ,Islamabad,18.0,Laptop,,1,2024-04-10 00:00:00,hina@gmail.com
+1075, John ,Karachi,24.0,Camera,80000.0,2,2024-01-29 00:00:00,
+1076,Ayesha,Karachi,22.0,Phone,20000.0,2,2024-02-11 00:00:00,AYESHA@GMAIL.COM
+1077,Hina,Multan,24.0,Phone,50000.0,2,2024-01-15 00:00:00,hina@outlook.com
+1078,Ayesha,Faisalabad,34.0,Laptop,20000.0,1,2024-01-20 00:00:00,ayesha@yahoo.com
+1079, Sara ,Faisalabad,39.0,Laptop,20000.0,2,2024-02-22 00:00:00,sara@gmail.com
+1080,Hina,Lahore,53.0,Headphones,30000.0,3,2024-04-07 00:00:00,hina@gmail.com
+1081,Hina,Lahore,37.0,Camera,-50000.0,3,invalid_date,hina@outlook.com
+1082, David ,Multan,28.0,Camera,30000.0,1,2024-04-02 00:00:00, david@outlook.com 
+1083, Ali ,Faisalabad,35.0,Laptop,80000.0,2,2024-03-06 00:00:00, ALI@OUTLOOK.COM 
+1084,Hina,Islamabad,31.0,Laptop,-20000.0,1,2024-04-07 00:00:00,hina@outlook.com
+1085,Ayesha,Karachi,22.0,Headphones,120000.0,1,invalid_date,AYESHA@GMAIL.COM
+1086,Mike,Faisalabad,47.0,Laptop,-80000.0,1,2024-04-27 00:00:00,mike@outlook.com
+1087,David,Islamabad,50.0,Tablet,30000.0,3,2024-03-08 00:00:00,DAVID@OUTLOOK.COM
+1088,Ahmed,Faisalabad,49.0,Camera,20000.0,3,2024-03-13 00:00:00,ahmed@gmail.com
+1089,Hina,Karachi,40.0,Laptop,50000.0,2,2024-02-09 00:00:00,hina@outlook.com
+1090, John ,Lahore,20.0,Tablet,120000.0,3,2024-04-13 00:00:00,john@gmail.com
+1091,Ayesha,Multan,33.0,Phone,20000.0,2,2024-02-26 00:00:00,ayesha@gmail.com
+1092,Mike,Multan,42.0,Phone,-50000.0,2,2024-04-02 00:00:00,mike@yahoo.com
+1093,Sara,Islamabad,23.0,Phone,80000.0,3,2024-02-18 00:00:00,sara@gmail.com
+1094, Usman ,Islamabad,49.0,Laptop,30000.0,3,2024-01-18 00:00:00,usman@outlook.com
+1095,Usman,Lahore,29.0,Headphones,30000.0,1,2024-04-08 00:00:00,USMAN@OUTLOOK.COM
+1096,David,Multan,48.0,Headphones,80000.0,2,2024-01-25 00:00:00,david@outlook.com
+1097,John,Multan,48.0,Laptop,120000.0,2,2024-03-11 00:00:00,john@outlook.com
+1098,Sara,Karachi,46.0,Headphones,20000.0,3,invalid_date,sara@yahoo.com
+1099,Mike,Lahore,36.0,Headphones,50000.0,2,2024-03-01 00:00:00, mike@gmail.com 
+1100, Hina ,Faisalabad,36.0,Camera,120000.0,2,invalid_date,HINA@GMAIL.COM
+1101, Sara ,Lahore,18.0,Laptop,30000.0,3,2024-01-31 00:00:00, sara@yahoo.com 
+1102, Mike ,Islamabad,42.0,Laptop,20000.0,2,2024-02-02 00:00:00,mike@outlook.com
+1103,Zara,Faisalabad,29.0,Phone,-30000.0,1,2024-03-28 00:00:00,ZARA@OUTLOOK.COM
+1104,Sara,Karachi,43.0,Phone,20000.0,2,2024-03-10 00:00:00,SARA@YAHOO.COM
+1105,Mike,Lahore,46.0,Headphones,50000.0,3,2024-02-19 00:00:00,mike@gmail.com
+1106,Ayesha,Islamabad,52.0,Tablet,80000.0,2,2024-01-14 00:00:00, ayesha@outlook.com 
+1107,Hina,Multan,21.0,Phone,50000.0,1,2024-03-22 00:00:00,
+1108,Ahmed,Islamabad,20.0,Tablet,50000.0,2,2024-03-27 00:00:00,
+1109,Sara,Islamabad,51.0,Headphones,-20000.0,1,2024-03-12 00:00:00,sara@outlook.com
+1110,Hina,Islamabad,23.0,Laptop,30000.0,3,2024-04-18 00:00:00,
+1111,Usman,Faisalabad,25.0,Laptop,30000.0,2,2024-04-11 00:00:00,usman@yahoo.com
+1112,Usman,Multan,48.0,Laptop,-20000.0,1,2024-04-08 00:00:00,usman@yahoo.com
+1113,Mike,Karachi,26.0,Camera,120000.0,1,2024-04-26 00:00:00,mike@yahoo.com
+1114, John ,Islamabad,34.0,Camera,120000.0,3,2024-03-11 00:00:00,john@yahoo.com
+1115,Sara,Multan,-5.0,Tablet,120000.0,3,invalid_date,sara@gmail.com
+1116,Zara,Islamabad,48.0,Headphones,120000.0,1,2024-04-13 00:00:00, zara@yahoo.com 
+1117, Ali ,Multan,40.0,Camera,50000.0,1,2024-01-17 00:00:00,ali@yahoo.com
+1118,Mike,Islamabad,44.0,Camera,50000.0,3,2024-04-20 00:00:00,mike@gmail.com
+1119, Mike ,Islamabad,43.0,Laptop,50000.0,1,2024-01-31 00:00:00,mike@gmail.com
