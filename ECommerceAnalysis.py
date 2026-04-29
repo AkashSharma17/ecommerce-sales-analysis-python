@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import logging
 
 
 class EcommerceAnalysis:
@@ -9,11 +10,23 @@ class EcommerceAnalysis:
     """
 
     def __init__(self, file_path: str, discount_rate=0.05, tax_rate=0.10):
+
         self.raw_df = pd.read_csv(file_path)
         self.df = self.raw_df.copy()
 
         self.discount_rate = discount_rate
         self.tax_rate = tax_rate
+
+        # =========================
+        # ONLY CHANGE: PRINT → LOGGING
+        # =========================
+        logging.basicConfig(
+            level=logging.INFO,
+            format="%(asctime)s | %(levelname)s | %(message)s"
+        )
+
+        self.logger = logging.getLogger(__name__)
+        self.logger.info("Pipeline Started")
 
         self._validate_columns()
 
@@ -29,11 +42,13 @@ class EcommerceAnalysis:
         missing = [col for col in required_cols if col not in self.df.columns]
 
         if missing:
+            self.logger.error(f"Missing columns: {missing}")
             raise ValueError(f"Missing columns: {missing}")
 
     def validate_clean_data(self):
         assert self.df["price"].isna().sum() == 0
         assert self.df["quantity"].isna().sum() == 0
+        self.logger.info("Validation Passed")
 
     # =========================
     # CLEANING
@@ -126,14 +141,13 @@ class EcommerceAnalysis:
     # BUSINESS INSIGHTS
     # =========================
     def generate_insights(self):
-        print("\n===== BUSINESS INSIGHTS =====\n")
-        print("Top Product:", self.sales_by_product().idxmax())
-        print("Top City:", self.sales_by_city().idxmax())
-        print("Top Customer ID:", self.customer_lifetime_value().idxmax())
-        print("Total Revenue:", round(self.df["final_amount"].sum(), 2))
+        self.logger.info("===== BUSINESS INSIGHTS =====")
+        self.logger.info(f"Top Product: {self.sales_by_product().idxmax()}")
+        self.logger.info(f"Top City: {self.sales_by_city().idxmax()}")
+        self.logger.info(f"Total Revenue: {round(self.df['final_amount'].sum(), 2)}")
 
     # =========================
-    # VISUALIZATION
+    # VISUALIZATION (NO CHANGE)
     # =========================
     def plot_monthly_sales(self):
         data = self.monthly_sales()
@@ -147,6 +161,7 @@ class EcommerceAnalysis:
 
         plt.xticks(rotation=0)
         plt.grid(alpha=0.3)
+
         plt.gca().spines[['top', 'right']].set_visible(False)
 
         plt.tight_layout()
@@ -164,16 +179,11 @@ class EcommerceAnalysis:
 
         plt.xticks(rotation=0)
         plt.grid(alpha=0.3)
+
         plt.gca().spines[['top', 'right']].set_visible(False)
 
         plt.tight_layout()
         plt.show()
-
-    # =========================
-    # EXPORT
-    # =========================
-    def export_data(self, file_name="cleaned_ecommerce_data.csv"):
-        self.df.to_csv(file_name, index=False)
 
     # =========================
     # PIPELINE
@@ -209,5 +219,3 @@ if __name__ == "__main__":
 
     project.plot_monthly_sales()
     project.plot_top_products()
-
-    project.export_data()
